@@ -68,7 +68,7 @@ keyRow.addEventListener('click', function (e) {
     screen.innerHTML = 0
     prescreen.innerHTML = 0
   } else if (e.target.value === '⌫') {
-    number[numberIndex].length != 1
+    number[numberIndex].length != 1 && number[numberIndex].length != 0
       ? (number[numberIndex] = String(number[numberIndex]).slice(0, -1))
       : (number[numberIndex] = '0')
     screen.innerHTML = number[numberIndex]

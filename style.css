@@ -1,0 +1,88 @@
+html,
+body {
+  font-size: 36px;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #383838;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #151515;
+  color: #fff;
+  width: 12rem;
+  height: 98vh;
+  /* height: 23.5rem; */
+  border-radius: 1.1rem;
+}
+
+.smaller {
+  font-size: 0.5rem;
+}
+
+.screen {
+  text-align: right;
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.prescreen {
+  text-align: right;
+  padding-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #969696;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  margin: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.key:nth-child(1) {
+  background: #ff5959;
+  color: #343434;
+}
+.key:nth-child(2),
+.key:nth-child(3),
+.key:nth-child(4),
+.key:nth-child(8),
+.key:nth-child(12),
+.key:nth-child(16),
+.key:nth-child(20) {
+  background: #343434;
+  color: #66ff7f;
+}
+
+.key:nth-child(5),
+.key:nth-child(6),
+.key:nth-child(7),
+.key:nth-child(9),
+.key:nth-child(10),
+.key:nth-child(11),
+.key:nth-child(13),
+.key:nth-child(14),
+.key:nth-child(15),
+.key:nth-child(17),
+.key:nth-child(18) {
+  background: #343434;
+  color: #fff;
+}
+
+.key:nth-child(19) {
+  background: #66ff7f;
+}

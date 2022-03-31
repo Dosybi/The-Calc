@@ -41,7 +41,7 @@ body {
 .keysRow {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .key {
@@ -89,7 +89,7 @@ body {
   background: #66ff7f;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 448px) {
   .key {
     margin: 0.5rem;
   }

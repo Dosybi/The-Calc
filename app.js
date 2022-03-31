@@ -7,7 +7,7 @@ const btnDelete = document.querySelector('.delete')
 
 const keys = [
   'C',
-  '( )',
+  '()',
   '%',
   '⌫',
   7,
@@ -80,7 +80,7 @@ keyRow.addEventListener('click', function (e) {
     number[numberIndex] = eval(expression)
     screen.innerHTML = number[numberIndex]
     saveResult()
-  } else if (e.target.value === '( )') {
+  } else if (e.target.value === '()') {
     ;(number[numberIndex].split('(').length +
       number[numberIndex].split(')').length) %
       2 ==

@@ -56,13 +56,10 @@ function changeIndex() {
 }
 
 function saveResult() {
-  let result = screen.innerHTML
-  let res = result
-  let prepost = document.createElement('p')
-  let post = results.appendChild(prepost)
-  post.className = 'result'
-  post.innerHTML = `<span class="resnumber text-sm text-gray-500">${count}.</span> ${res}.`
-  count += 1
+  let res = screen.innerHTML
+  results.innerHTML
+    ? (results.innerHTML += ` | ${res}`)
+    : (results.innerHTML += `${res}`)
 }
 
 keyRow.addEventListener('click', function (e) {
